@@ -1,0 +1,34 @@
+<div class="innerblock">
+    <div class="serviceblock">
+
+        {% for project in projects %}
+
+        <a class="service-card-link"
+           href="/projects?lang={{ request.state.lang }}&filter={{ project.filter }}#{{ project.id }}">
+            <div class="service-card">
+
+                <img src="{{ project.images[0] }}" alt="service-pic">
+
+                <h3 class="service-title">
+                    {{ project.title }}
+                </h3>
+
+                <div class="service-description">
+                    <ul>
+                        <li>{{ project.overview }}</li>
+                    </ul>
+                </div>
+
+            </div>
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+    <div class="meta">
+        <span></span>
+        <a href="/projects?lang={{ request.state.lang }}"><i>{{ request.state.common_translations.all_projects }}</i></a>
+    </div>
+</div>
+

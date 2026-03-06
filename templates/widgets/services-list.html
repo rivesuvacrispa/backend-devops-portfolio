@@ -1,0 +1,38 @@
+<div class="innerblock">
+    <div class="serviceblock">
+
+
+        {% for service in profile.services %}
+
+        <div class="service-card">
+
+
+            <img src="{{ service.picture }}" alt="service-pic">
+
+            <h3 class="service-title">
+                {{ service.title }}
+            </h3>
+
+            <div class="service-description">
+
+                <ul>
+                    {% for feature in service.features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    <div class="meta">
+        <span></span>
+        <a href="https://www.freepik.com"><i>{{ request.state.common_translations.credits }}</i></a>
+    </div>
+</div>
+

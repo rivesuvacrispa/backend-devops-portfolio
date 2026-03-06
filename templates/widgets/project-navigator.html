@@ -1,0 +1,7 @@
+<nav class="navigator">
+    <div class="navigator-content">
+        {% for project in projects %}
+        <div><a href="#project-{{ loop.index }}" class="nav-link">{{ project.title or '---' }}</a></div>
+        {% endfor %}
+    </div>
+</nav>

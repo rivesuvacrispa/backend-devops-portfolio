@@ -1,0 +1,102 @@
+{% extends "_base.html" %}
+{% block content %}
+
+{% include "widgets/project-navigator.html" %}
+
+<div class="special-headers">
+    <div class="special-h sh-1">SHOWCASES</div>
+    <div class="special-h sh-2">/</div>
+    <div class="special-h sh-3">PROJECTS</div>
+</div>
+
+<div class="filter-selector">
+    {% for filter in filters %}
+    <div><a href="?lang={{ request.state.lang }}&filter={{ filter.lower() }}" class="{% if active_filter == filter.lower() %}active{% endif %}">{{ filter }}</a></div>
+    {% endfor %}
+</div>
+
+<div class="container">
+
+    {% for project in projects %}
+    {% set project_loop = loop %}
+
+    <div class="infoblock" id="project-{{ loop.index }}">
+
+        <div class="innerblock">
+            <h2 id="{{ project.id }}">{{ project.title or '---' }}</h2>
+
+            <h3>{{ request.state.common_translations.overview }}</h3>
+            <div class="overview">{{ project.overview }}</div>
+
+            {% if project.images %}
+            <div class="slider">
+                {% if project.image_count > 1 %}
+                <button class="slider-btn prev-btn" onClick="moveSlide({{ loop.index }}, -1)">&#10094;</button>
+                {% endif %}
+
+                <div class="slides" id="slides-{{ loop.index }}">
+                    {% for img in project.images %}
+                    <img src="{{ img }}"
+                         alt="Project image"
+                         class="slide-image"
+                         height="500"
+                         width="600"
+                         loading="lazy"
+                         onClick="openModal({{ project_loop.index }}, {{ loop.index0 }})">
+                    {% endfor %}
+                </div>
+
+                {% if project.image_count > 1 %}
+                <button class="slider-btn next-btn" onClick="moveSlide({{ loop.index }}, 1)">&#10095;</button>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            {% if project.roles or project.duration %}
+            <div class="meta">
+                {% if project.duration
+                %}<span>{{ request.state.common_translations.duration }}: {{ project.duration }}</span>{% endif %}
+                {% if project.roles %}<span>{{ request.state.common_translations.featuring }}: {{ project.roles | join(', ') }}</span>{%
+                endif %}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="stack">
+            {% for item in project.stack %}
+            <span class="stack-tag"><i class="{{ item.icon }}"></i> {{ item.name }}</span>
+            {% endfor %}
+        </div>
+
+        <div class="innerblock">
+
+            <div class="features">
+                <h3 class="dropdown-toggle"><i class="fas fa-angle-right"></i> {{
+                    request.state.common_translations.dev_features }}</h3>
+                <ul class="dropdown-content">
+                    {% for feature in project.development_features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {% if project.devops_features %}
+            <div class="features">
+                <h3 class="dropdown-toggle"><i class="fas fa-angle-right"></i> {{
+                    request.state.common_translations.devops_features }}</h3>
+                <ul class="dropdown-content">
+                    {% for feature in project.devops_features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+        </div>
+
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

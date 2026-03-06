@@ -1,0 +1,50 @@
+{% extends "_base.html" %}
+{% block content %}
+
+<div class="special-headers">
+    <div class="special-h sh-1">BACKEND</div>
+    <div class="special-h sh-2">/</div>
+    <div class="special-h sh-3">DEVOPS</div>
+</div>
+
+<div class="container">
+
+    <div class="infoblock" id="about">
+        <div class="innerblock">
+            <div class="profile">
+                <div class="avatar">
+                    <img src="{{ profile.avatar }}" alt="avatar" class="avatar-img">
+                </div>
+                <div class="aboutblock">
+                    <h2>{{ profile.title }}</h2>
+                    <div class="description">{{ profile.description | safe }}</div>
+                    <div><h3>{{ request.state.common_translations.education }}: </h3>{{ profile.university }}</div>
+                    <div><h3>{{ request.state.common_translations.age }}: </h3>{{ profile.age }}</div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <h2 class="p20">{{ request.state.common_translations.skills }}</h2>
+        {% include "widgets/skills-list.html" %}
+
+
+        <h2 class="p20">{{ request.state.common_translations.services }}</h2>
+        {% include "widgets/services-list.html" %}
+
+
+        <h2 class="p20">{{ request.state.common_translations.tools }}</h2>
+        {% include "widgets/tools-list.html" %}
+
+        <h2 class="p20">{{ request.state.common_translations.my_projects }}</h2>
+        {% include "widgets/projects-list.html" %}
+
+        <h2 class="p20">{{ request.state.common_translations.contacts }}</h2>
+        {% include "widgets/block-contacts.html" %}
+
+    </div>
+
+</div>
+
+{% endblock %}

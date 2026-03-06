@@ -1,0 +1,6 @@
+<div class="full-width-panel sticker-top">
+    <p><a href="/about?lang={{ request.state.lang }}">{{ request.state.common_translations.about }}</a></p>
+    <p><a href="/projects?lang={{ request.state.lang }}">{{ request.state.common_translations.projects }}</a></p>
+    <p><a href="/contacts?lang={{ request.state.lang }}">{{ request.state.common_translations.contacts }}</a></p>
+    {% include "widgets/language_selector.html" %}
+</div>

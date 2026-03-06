@@ -1,0 +1,279 @@
+@media (max-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .navigator {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        height: 48px;
+        padding: 0;
+        background-color: rgba(27, 28, 45, 0.5);
+        backdrop-filter: blur(10px);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+
+    .navigator-content {
+        padding: 0 20px;
+        flex-direction: row;
+        min-width: max-content;
+        align-items: center;
+    }
+
+    .slide-image {
+        width: 1165px;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .full-width-panel {
+        gap: 20px;
+    }
+
+    .slide-image {
+        width: 990px;
+        height: 500px;
+    }
+
+    .service-title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .stack {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .description {
+        padding-right: 0;
+    }
+
+    .slide-image {
+        width: 738px;
+        height: 500px;
+    }
+
+    .special-h {
+        font-size: 4.2rem;
+    }
+
+    .special-headers {
+        margin: 32px 0;
+        padding: 32px;
+    }
+
+    .language-selector {
+        display: none;
+    }
+
+    .stack-tag {
+        min-height: 48px;
+    }
+
+    .serviceblock {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service-description {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .profile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .avatar {
+        height: 256px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatar-img {
+        object-fit: cover;
+        height: 256px;
+        width: 256px;
+    }
+
+    .serviceblock {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .slide-image {
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .service-card img {
+        filter: grayscale(100%) brightness(50%) blur(5px);
+    }
+
+    .service-title {
+        height: 48px;
+    }
+
+    .service-card:hover .service-title {
+        color: white;
+        opacity: 100%;
+        visibility: visible;
+    }
+
+    .service-description {
+        color: white;
+        display: flex;
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 528px) {
+
+    .service-description {
+        color: white;
+        display: flex;
+        font-size: 0.95rem;
+        line-height: 20px;
+    }
+
+    .sticker-bottom {
+        margin-top: 64px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .innerblock {
+        padding: 0.5rem;
+    }
+
+    .full-width-panel {
+        gap: 20px;
+    }
+
+    .stack {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .meta {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .avatar {
+        height: 196px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatar-img {
+        object-fit: cover;
+        height: 196px;
+        width: 196px;
+    }
+
+    .sticker-bottom {
+        padding-top: 5px;
+    }
+
+    .slide-image {
+        width: 398px;
+        height: 350px;
+    }
+
+    .special-h {
+        font-size: 3rem;
+    }
+
+    .special-headers {
+        margin: 24px 0;
+        padding: 12px;
+    }
+
+    .serviceblock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-card {
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .service-title {
+        font-size: 1.5rem;
+    }
+
+    .service-description {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 379px) {
+
+    .stack {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .slide-image {
+        width: 293px;
+        height: 350px;
+    }
+
+    .special-h {
+        font-size: 2.5rem;
+    }
+
+    .special-headers {
+        display: none;
+    }
+
+    .stack-tag {
+        min-height: 32px;
+    }
+
+    .full-width-panel {
+        gap: 20px;
+    }
+
+    .full-width-panel p {
+        max-width: 64px;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 226px) {
+
+    .stack {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

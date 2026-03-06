@@ -1,0 +1,84 @@
+{
+  "name": "Ягнаев Владимир",
+  "age": 24,
+  "university": "Университет ИТМО, Санкт-Петербург, Россия",
+  "avatar": "static/pictures/avatar2.webp",
+  "title": "Обо мне",
+  "description": "<p>Привет!</p><p>Я бэкенд-разработчик с трехлетним опытом работы над веб-приложениями и API. Мои основные инструменты - Laravel, Django, C# .NET Framework.</p><p>Специализируюсь на разработке стабильных и эффективных систем, проектировании и оптимизации базы данных. Работал с интеграцией приложений с внешними API, такими как Bitrix24, AmoCRM, Telegram и OpenAI.</p><p>Знаю Docker, умею настраивать сервера Ubuntu, Debian и выкатывать код в реальные среды. Nginx, Grafana, Loki, Prometheus - для меня не просто слова, а инструменты, которые я использую даже на своем домашнем сервере.</p> <p>Свободное время посвящаю языку С# и разработке игр.</p>",
+  "services": [
+    {
+      "title": "Бекенд-Разработка",
+      "picture": "static/pictures/services/architecture.webp",
+      "features": [
+        "Разработка API",
+        "Разработка Баз Данных",
+        "Документация API",
+        "Фреймворки: Laravel, Symfony, Django, .NET, FastAPI"
+      ]
+    },
+    {
+      "title": "Анализ Бизнес Требований",
+      "picture": "static/pictures/services/flow.webp",
+      "features": [
+        "Составление диаграмм BPMN / UML Activity",
+        "User-flow, user-stories диаграммы",
+        "Определение и приоритизация MVP"
+      ]
+    },
+    {
+      "title": "Интеграция Сервисов",
+      "picture": "static/pictures/services/services-integration.webp",
+      "features": [
+        "Платежные шлюзы: Yookassa, Lifepay и другие",
+        "CRM-системы: Bitrix24, AmoCRM, Teletrack, AGBIS",
+        "Внешние API: Telegram, OpenAI, Speech2Text и другие"
+      ]
+    },
+    {
+      "title": "Контейнеризация Приложений",
+      "picture": "static/pictures/services/containerization.webp",
+      "features": [
+        "Докеризация существующих приложений"
+      ]
+    },
+    {
+      "title": "Деплой Приложений",
+      "picture": "static/pictures/services/deployment.webp",
+      "features": [
+        "Настройка CI/CD пайплайнов",
+        "Gitlab / Github actions"
+      ]
+    },
+    {
+      "title": "Настройка Серверов",
+      "picture": "static/pictures/services/server.webp",
+      "features": [
+        "Настройка серверов Ubuntu 24 / Debian 11",
+        "Настройка NGINX",
+        "Настройка DNS / HTTPS",
+        "Настройка Firewall / router / port forwarding"
+      ]
+    },
+    {
+      "title": "Код-Ревью",
+      "picture": "static/pictures/services/code-review.webp",
+      "features": [
+        "Анализ архитектуры",
+        "Поиск уязвимостей",
+        "Поиск боттлнеков",
+        "Поиск рисков",
+        "Составление рекоммендаций"
+      ]
+    },
+    {
+      "title": "Оптимизация",
+      "picture": "static/pictures/services/optimization.webp",
+      "features": [
+        "Оптимизация баз данных",
+        "Оптимизация запросов",
+        "Оптимизация кеша",
+        "Рефакторинг кода"
+      ]
+    }
+  ]
+}

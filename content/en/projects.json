@@ -1,0 +1,428 @@
+[
+  {
+    "title": "Dry-Cleaning App",
+    "filter": "PHP",
+    "pictures": "dry-cleaning",
+    "stack": [
+      "PHP 8.4.1",
+      "Laravel 12",
+      "Filament 5",
+      "PostgreSQL",
+      "Teletrack API",
+      "Maxma API",
+      "AGBIS API"
+    ],
+    "duration": "6 months",
+    "roles": [
+      "Backend Development",
+      "Full Cycle Development",
+      "BPA"
+    ],
+    "overview": "Backend service for a Moscow dry-cleaning business mobile app",
+    "development_features": [
+      "Analyzed & designed business processes using UML diagrams",
+      "Designed database",
+      "Designed architecture",
+      "Developed the whole functionality of the system",
+      "Integrated AGBIS CRM system for catalog and client synchronization",
+      "Integrated Teletrack courier service for automatic courier task assignment",
+      "Integrated Maxma loylaty system",
+      "Implemented REST API for front-end",
+      "Provided an endpoint documentation"
+    ],
+    "devops_features": [
+      "Server configuration",
+      "DNS, HTTPS, NGINX configurations",
+      "Deploy automation using gitlab actions"
+    ]
+  },
+  {
+    "title": "Streaming Service",
+    "filter": "PHP",
+    "pictures": "streaming-service",
+    "stack": [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "REST"
+    ],
+    "duration": "4 months",
+    "roles": [
+      "Backend Разработка"
+    ],
+    "overview": "Web-platform for Israel streaming service",
+    "development_features": [
+      "Database development",
+      "Integration with streaming services",
+      "Developed news content parser for a blog module",
+      "Implemented REST API for front-end",
+      "Provided an endpoint documentation"
+    ],
+    "devops_features": [
+      "Server configuration"
+    ]
+  },
+  {
+    "title": "Internet Provider App",
+    "filter": "PHP",
+    "pictures": "internet-provider-app",
+    "stack": [
+      "PHP",
+      "Symfony",
+      "MySQL",
+      "REST"
+    ],
+    "duration": "12 months",
+    "roles": [
+      "Backend Разработка",
+      "Поддержка баз данных",
+      "Feature Development",
+      "Поддержка"
+    ],
+    "overview": "Backend for a mobile app of internet communications provider",
+    "development_features": [
+      "Developed new functionality for an existing codebase",
+      "User verification system development using MTS KYC, SberbankAPI and AlfaBankAPI",
+      "Implemented REST API for front-end",
+      "Provided an endpoint documentation"
+    ],
+    "devops_features": [
+      "Server configuration"
+    ]
+  },
+  {
+    "title": "B2B Service",
+    "filter": "PHP",
+    "pictures": "b2b",
+    "stack": [
+      "PHP 8.1",
+      "Laravel 10",
+      "MySQL 8",
+      "Bitrix24 API",
+      "REST"
+    ],
+    "duration": "12 months",
+    "roles": [
+      "Backend Development",
+      "Feature Development",
+      "Support"
+    ],
+    "overview": "A web platform for B2B clients featuring wholesale purchases, analytics and extended integration with Bitrix24.",
+    "development_features": [
+      "Designed database",
+      "Implemented a wide Bitrix24 integration featuring product catalog synchronization, leads, deals synchronization, document generation & shipping",
+      "Implemented REST API for front-end",
+      "Provided an endpoint documentation"
+    ],
+    "devops_features": []
+  },
+  {
+    "title": "Online Courses Platform",
+    "filter": "PHP",
+    "pictures": "courses-platform",
+    "stack": [
+      "PHP 8.1",
+      "Laravel 10",
+      "MySQL 8",
+      "Bitrix24 API",
+      "REST"
+    ],
+    "duration": "4 months",
+    "roles": [
+      "Backend Development",
+      "Feature Development",
+      "Support"
+    ],
+    "overview": "A web platform for purchasing courses, featuring admin panel for content management.",
+    "development_features": [
+      "Designed database",
+      "Implemented a wide Bitrix24 integration featuring product catalog synchronization, leads, deals synchronization, document generation & shipping",
+      "Integrated payment services",
+      "Implemented REST API for front-end",
+      "Provided an endpoint documentation"
+    ],
+    "devops_features": []
+  },
+  {
+    "title": "Network Maps Editor",
+    "filter": "PHP",
+    "pictures": "network-service",
+    "stack": [
+      "PHP 8.2",
+      "Laravel 11",
+      "MySQL 8",
+      "Redis",
+      "Websockets"
+    ],
+    "duration": "1 month",
+    "roles": [
+      "Support"
+    ],
+    "overview": "A web platform for creating town electrical network maps.",
+    "development_features": [
+      "Feature shipping and bug fixes",
+      "Assisting members of the team with local app setup"
+    ],
+    "devops_features": []
+  },
+  {
+    "title": "AI Call Analyst",
+    "filter": "Python",
+    "pictures": "ai-analyst",
+    "stack": [
+      "Python 3.11",
+      "Django 4.2",
+      "PostgreSQL 15",
+      "OpenAI API",
+      "Bitrix24 REST API",
+      "AmoCRM API",
+      "Speech2Text API",
+      "Redis",
+      "Nginx",
+      "Docker",
+      "Debian 11",
+      "REST"
+    ],
+    "duration": "3 months",
+    "roles": [
+      "Backend Development",
+      "DevOps Engineering",
+      "Full Cycle Development",
+      "BPA"
+    ],
+    "overview": "A web application for call transcribation and analysis that connects to Bitrix24 and AmoCRM via webhooks. ",
+    "development_features": [
+      "Analyzed & designed business processes using UML diagrams",
+      "Designed database",
+      "Dockerized the application",
+      "Provided an admin panel for managing clients & content",
+      "Integrated Speech to Text services",
+      "Integrated OpenAI services (ChatGPT)",
+      "Built prompts for LLM",
+      "Designed JWT Token Auth system",
+      "Designed & secured REST API endpoints for front-end",
+      "Integrated Bitrix24 via webhooks to automatically process incoming calls",
+      "Integrated AMO CRM via webhooks to automatically process incoming calls",
+      "Implemented data caching",
+      "Implemented an asynchronous multi-staged parallel audio file processing service",
+      "Implemented a realtime call report generation monitoring with different statuses (Pending, Complete, Failed)",
+      "Implemented a wide Permission system with different rights for individual users or user groups",
+      "Implemented client currency system",
+      "Provided an endpoint documentation"
+    ],
+    "devops_features": [
+      "Set up the server",
+      "Set up database",
+      "Automated deployment via github actions",
+      "Managed infrastructure",
+      "Set up reverse proxy server (NGINX)",
+      "Set up Domain & SSL (HTTPS)",
+      "Set up log collector (Grafana, Loki)",
+      "Set up monitoring system (Grafana, Prometheus)"
+    ]
+  },
+  {
+    "title": "Telegram Bot Parser Orchestrator",
+    "filter": "Python",
+    "pictures": "tg-parser",
+    "stack": [
+      "Python 3.11",
+      "Django 4.2",
+      "PostgreSQL 15",
+      "Pyrogram 2",
+      "Docker SDK",
+      "Docker",
+      "Nginx",
+      "Debian 11",
+      "Websockets"
+    ],
+    "duration": "2 months",
+    "roles": [
+      "Backend Development",
+      "DevOps Engineering",
+      "Full Cycle Development",
+      "BPA"
+    ],
+    "overview": "A web admin panel that manages telegram scraping human-like bots and provides an API for data gathering and storage.",
+    "development_features": [
+      "Designed database",
+      "Optimized database and queries to efficiently query large tables (>20M rows)",
+      "Designed an admin panel for creating and managing telegram bots",
+      "Designed an admin-panel console for logging in telegram bots",
+      "Implemented API auth system for user bots",
+      "Implemented a telegram userbot for scraping telegram chats data",
+      "Implemented a runtime userbot containerization system using Docker SDK",
+      "Implemented a realtime container monitoring system built in into admin panel",
+      "Implemented a realtime bot commands system built in into admin panel"
+    ],
+    "devops_features": [
+      "Set up the server",
+      "Set up database",
+      "Automated deployment via github actions",
+      "Managed infrastructure",
+      "Set up reverse proxy server (NGINX)"
+    ]
+  },
+  {
+    "title": "Telegram Lead Generator",
+    "filter": "Python",
+    "pictures": "lead-generator",
+    "stack": [
+      "Python 3.11",
+      "Django 4.2",
+      "MySQL 8",
+      "Pyrogram 2",
+      "Telegram API",
+      "Docker SDK",
+      "Nginx",
+      "Ubuntu 24",
+      "Websockets"
+    ],
+    "duration": "2 months",
+    "roles": [
+      "Backend Development",
+      "DevOps Engineering",
+      "Full Cycle Development",
+      "BPA"
+    ],
+    "overview": "A web admin panel that manages realtime lead generation from telegram chats, featuring human-like chatbots and chat keyword parsing.",
+    "development_features": [
+      "Designed database",
+      "Designed an admin panel for creating and managing telegram bots",
+      "Designed an admin-panel console for logging in telegram bots",
+      "Integrated OpenAI services (ChatGPT)",
+      "Built prompts for LLM",
+      "Implemented a human-like behaviour for telegram user bots",
+      "Implemented a telegram chat parsing mechanism for leads generation",
+      "Implemented a fallback system with manager notification if user bot has failed to answer or was revealed",
+      "Implemented a runtime userbot containerization system using Docker SDK",
+      "Implemented a realtime container monitoring system built in into admin panel",
+      "Implemented a realtime bot commands system built in into admin panel",
+      "Implemented a realtime telegram chat in admin-panel using websockets",
+      "Implemented a manager notification system that allows tracking various events"
+    ],
+    "devops_features": [
+      "Set up the server",
+      "Set up database",
+      "Automated deployment via github actions",
+      "Managed infrastructure",
+      "Set up reverse proxy server (NGINX)"
+    ]
+  },
+  {
+    "title": "P2P Crypto Portal",
+    "filter": "Python",
+    "pictures": "p2p",
+    "stack": [
+      "Python 3.11",
+      "Django 5",
+      "SQLite",
+      "Telegram API",
+      "Blockchain",
+      "REST"
+    ],
+    "duration": "1 month",
+    "roles": [
+      "Backend Development",
+      "Full Cycle Development",
+      "BPA"
+    ],
+    "overview": "A web platform for P2P platform management featuring content publication, moderation, referral system and payments in TON.",
+    "development_features": [
+      "Designed database",
+      "Analyzed & designed business processes using UML diagrams",
+      "Implemented a permission system with different roles (Moderator, Platform, Trader)",
+      "Implemented REST API for front-end",
+      "Provided an endpoint documentation"
+    ],
+    "devops_features": []
+  },
+  {
+    "title": "IIKO Loyalty PLugin",
+    "filter": "Other",
+    "pictures": "iiko-plugin",
+    "stack": [
+      "C# .NET Framework 8",
+      "RestoFrontAPI 8",
+      "Docker"
+    ],
+    "duration": "2 months",
+    "roles": [
+      "Full Cycle Development",
+      "BPA"
+    ],
+    "overview": "A plugin for resto-system IIKO that features custom loyalty program using external API.",
+    "development_features": [
+      "Analyzed & designed business processes using UML diagrams",
+      "Integrated plugin backend into IIKO CMS via IIKO SDK",
+      "Implemented data encryption system using server secret and plugin token",
+      "Built custom proxy service that encrypts data to test backend mock",
+      "Implemented a python script designed to create plugin instances in server environment using docker"
+    ],
+    "devops_features": []
+  },
+  {
+    "title": "Crawly Chronicles",
+    "filter": "Other",
+    "pictures": "crawly",
+    "stack": [
+      "Unity 2021",
+      "Unity 6",
+      "C# 8.0"
+    ],
+    "duration": "2 months",
+    "roles": [
+      "Game Development",
+      "Game Designer",
+      "Digital Artist",
+      "Sound Designer",
+      "VFX Artist"
+    ],
+    "overview": "A 2D action survival game with an interesting twist. A submission to Brackeys GameJam 2023.1, the alpha version built in 1 week totally from scratch.",
+    "development_features": [
+      "Designed an idea to match the given GameJam's theme",
+      "Designed fundamental game concepts and mechanics",
+      "Designed a unique game style",
+      "Designed and created sound effects",
+      "Designed and created visual effects",
+      "Designed and created sprites and animations",
+      "Designed and implemented game cycle",
+      "Designed and created user interface",
+      "Implemented combat system with physics, parrying, armor and other complex mechanics",
+      "Implemented a day-night cycle system",
+      "Implemented difficulty systems",
+      "Implemented a player skill system with the ability to build your own unique play style",
+      "Implemented AI system for enemies featuring pathfinding, states, complex tasks, state changes, various unique behaviours",
+      "Implemented boss mechanics featuring different combat mechanics such as bullet hell",
+      "Implemented localization system for two languages",
+      "Tracked and fixed bugs"
+    ],
+    "devops_features": []
+  },
+  {
+    "title": "Other Projects",
+    "filter": "Other",
+    "pictures": "other",
+    "stack": [
+      "Unity 2021",
+      "Unity 2023",
+      "Unity 6",
+      "Java SDK"
+    ],
+    "duration": "",
+    "roles": [],
+    "overview": "Through my programming journey, i've made a lot of things. My hobby is game development and there are a lot of projects I've been working on. Many of them are left unfinished and many have been forgotten, but one thing persists: thanks to more than 100k lines of C# code I've written, I acquired deep understanding of object-oriented programming, asynchronous tasks, math, physics and many other things.",
+    "development_features": [
+      "Worked on many different procedural generation algorithms, such as combined perlin and voronoi noises, Wave Function Collapse (WFC)",
+      "Worked with Unity's Burst compiler to optimize heavy calculations by hundreds of times, compiling C# into native code",
+      "Worked with different algorithms such as AStar, Wave Function Collapse (WFC), Cube Marching Algorithm, Raycasting, Constructive Solid Geometry (CSG)",
+      "Worked on JSON-based or bytes-based save / load systems",
+      "Worked with shaders using Unity's Shader Graph",
+      "Worked with Lighting and baking",
+      "Worked with Physics: vectors, quaternions, forces",
+      "Worked with AI state machines",
+      "Worked with animations and animators"
+    ],
+    "devops_features": []
+  }
+]

@@ -1,0 +1,6 @@
+<div class="language-selector">
+    <a href="?lang=en{% if active_filter %}&filter={{ active_filter.lower() }}{% endif %}"
+       class="selector-item {% if request.state.lang == 'en' %}active{% endif %}">EN</a> /
+    <a href="?lang=ru{% if active_filter %}&filter={{ active_filter.lower() }}{% endif %}"
+       class="selector-item {% if request.state.lang == 'ru' %}active{% endif %}">РУС</a>
+</div>
