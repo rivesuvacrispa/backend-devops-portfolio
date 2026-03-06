@@ -21,7 +21,7 @@
 <table>
   <tr>
     <td>
-      <img src="./static/pictures/internet-provider-app/internet-provider-app.webp" alt="Image" width="100%">
+      <img src="static/pictures/internet-provider-app/internet-provider-app.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

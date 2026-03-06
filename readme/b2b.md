@@ -20,23 +20,23 @@
 <table>
   <tr>
     <td>
-      <img src="./static/pictures/b2b/b2b_0.webp" alt="Image" width="100%">
+      <img src="static/pictures/b2b/b2b_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/b2b/b2b_1.webp" alt="Image" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./static/pictures/b2b/b2b_2.webp" alt="Image" width="100%">
-    </td>
-    <td>
-      <img src="./static/pictures/b2b/b2b_3.webp" alt="Image" width="100%">
+      <img src="static/pictures/b2b/b2b_1.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="./static/pictures/b2b/b2b_4.webp" alt="Image" width="100%">
+      <img src="static/pictures/b2b/b2b_2.webp" alt="Image" width="100%">
+    </td>
+    <td>
+      <img src="static/pictures/b2b/b2b_3.webp" alt="Image" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="static/pictures/b2b/b2b_4.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

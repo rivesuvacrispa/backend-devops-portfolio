@@ -35,24 +35,24 @@
 <table>
   <tr>
     <td>
-      <img src="./static/pictures/tg-parser/tg-parser_0.webp" alt="Image" width="100%">
+      <img src="static/pictures/tg-parser/tg-parser_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/tg-parser/tg-parser_1.webp" alt="Image" width="100%">
+      <img src="static/pictures/tg-parser/tg-parser_1.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/tg-parser/tg-parser_2.webp" alt="Image" width="100%">
+      <img src="static/pictures/tg-parser/tg-parser_2.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="./static/pictures/tg-parser/tg-parser_3.webp" alt="Image" width="100%">
+      <img src="static/pictures/tg-parser/tg-parser_3.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/tg-parser/tg-parser_4.webp" alt="Image" width="30%" height="30%">
+      <img src="static/pictures/tg-parser/tg-parser_4.webp" alt="Image" width="30%" height="30%">
     </td>
     <td>
-      <img src="./static/pictures/tg-parser/tg-parser_5.webp" alt="Image" width="30%" height="30%">
+      <img src="static/pictures/tg-parser/tg-parser_5.webp" alt="Image" width="30%" height="30%">
     </td>
   </tr>
 </table>

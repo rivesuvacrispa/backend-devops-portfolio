@@ -25,34 +25,34 @@
 <table>
   <tr>
     <td>
-      <img src="./static/pictures/other/other_0.webp" alt="Image" width="100%">
+      <img src="static/pictures/other/other_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/other/other_1.webp" alt="Image" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./static/pictures/other/other_2.webp" alt="Image" width="100%">
-    </td>
-    <td>
-      <img src="./static/pictures/other/other_3.webp" alt="Image" width="100%">
+      <img src="static/pictures/other/other_1.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="./static/pictures/other/other_4.webp" alt="Image" width="100%">
+      <img src="static/pictures/other/other_2.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/other/other_5.webp" alt="Image" width="100%">
+      <img src="static/pictures/other/other_3.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="./static/pictures/other/other_6.webp" alt="Image" width="100%">
+      <img src="static/pictures/other/other_4.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/other/other_7.webp" alt="Image" width="100%">
+      <img src="static/pictures/other/other_5.webp" alt="Image" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="static/pictures/other/other_6.webp" alt="Image" width="100%">
+    </td>
+    <td>
+      <img src="static/pictures/other/other_7.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

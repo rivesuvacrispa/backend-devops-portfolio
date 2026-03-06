@@ -21,18 +21,18 @@
 <table>
   <tr>
     <td>
-      <img src="./static/pictures/courses-platform/courses-platform_0.webp" alt="Image" width="100%">
+      <img src="static/pictures/courses-platform/courses-platform_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/courses-platform/courses-platform_1.webp" alt="Image" width="100%">
+      <img src="static/pictures/courses-platform/courses-platform_1.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="./static/pictures/courses-platform/courses-platform_2.webp" alt="Image" width="100%">
+      <img src="static/pictures/courses-platform/courses-platform_2.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="./static/pictures/courses-platform/courses-platform_3.webp" alt="Image" width="100%">
+      <img src="static/pictures/courses-platform/courses-platform_3.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

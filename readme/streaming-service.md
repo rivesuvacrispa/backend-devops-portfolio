@@ -22,7 +22,7 @@
 <table>
   <tr>
     <td>
-      <img src="./static/pictures/streaming-service/streaming-service.webp" alt="Image" width="100%">
+      <img src="static/pictures/streaming-service/streaming-service.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>
