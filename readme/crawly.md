@@ -31,31 +31,31 @@
 <table>
   <tr>
     <td>
-      <img src="static/pictures/crawly/crawly_0.webp" alt="Image" width="100%">
+      <img src="../static/pictures/crawly/crawly_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="static/pictures/crawly/crawly_1.webp" alt="Image" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="static/pictures/crawly/crawly_2.webp" alt="Image" width="100%">
-    </td>
-    <td>
-      <img src="static/pictures/crawly/crawly_3.webp" alt="Image" width="100%">
+      <img src="../static/pictures/crawly/crawly_1.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="static/pictures/crawly/crawly_4.webp" alt="Image" width="100%">
+      <img src="../static/pictures/crawly/crawly_2.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="static/pictures/crawly/crawly_5.webp" alt="Image" width="100%">
+      <img src="../static/pictures/crawly/crawly_3.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="static/pictures/crawly/crawly_6.webp" alt="Image" width="100%">
+      <img src="../static/pictures/crawly/crawly_4.webp" alt="Image" width="100%">
+    </td>
+    <td>
+      <img src="../static/pictures/crawly/crawly_5.webp" alt="Image" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../static/pictures/crawly/crawly_6.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

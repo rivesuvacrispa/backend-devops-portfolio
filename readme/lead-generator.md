@@ -39,10 +39,10 @@
 <table>
   <tr>
     <td>
-      <img src="static/pictures/lead-generator/lead-generator_0.webp" alt="Image" width="60%">
+      <img src="../static/pictures/lead-generator/lead-generator_0.webp" alt="Image" width="60%">
     </td>
     <td>
-      <img src="static/pictures/lead-generator/lead-generator_1.webp" alt="Image" width="60%">
+      <img src="../static/pictures/lead-generator/lead-generator_1.webp" alt="Image" width="60%">
     </td>
   </tr>
 </table>

@@ -49,23 +49,23 @@
 <table>
   <tr>
     <td>
-      <img src="static/pictures/ai-analyst/ai-analyst_0.webp" alt="Image" width="100%">
+      <img src="../static/pictures/ai-analyst/ai-analyst_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="static/pictures/ai-analyst/ai-analyst_1.webp" alt="Image" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="static/pictures/ai-analyst/ai-analyst_3.webp" alt="Image" width="100%">
-    </td>
-    <td>
-      <img src="static/pictures/ai-analyst/ai-analyst_4.webp" alt="Image" width="100%">
+      <img src="../static/pictures/ai-analyst/ai-analyst_1.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="static/pictures/ai-analyst/ai-analyst_5.webp" alt="Image" width="100%">
+      <img src="../static/pictures/ai-analyst/ai-analyst_3.webp" alt="Image" width="100%">
+    </td>
+    <td>
+      <img src="../static/pictures/ai-analyst/ai-analyst_4.webp" alt="Image" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../static/pictures/ai-analyst/ai-analyst_5.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

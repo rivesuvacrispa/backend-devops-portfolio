@@ -20,23 +20,23 @@
 <table>
   <tr>
     <td>
-      <img src="static/pictures/network-service/network-service_0.webp" alt="Image" width="100%">
+      <img src="../static/pictures/network-service/network-service_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="static/pictures/network-service/network-service_1.webp" alt="Image" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="static/pictures/network-service/network-service_2.webp" alt="Image" width="100%">
-    </td>
-    <td>
-      <img src="static/pictures/network-service/network-service_3.webp" alt="Image" width="100%">
+      <img src="../static/pictures/network-service/network-service_1.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="static/pictures/network-service/network-service_4.webp" alt="Image" width="100%">
+      <img src="../static/pictures/network-service/network-service_2.webp" alt="Image" width="100%">
+    </td>
+    <td>
+      <img src="../static/pictures/network-service/network-service_3.webp" alt="Image" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../static/pictures/network-service/network-service_4.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

@@ -23,18 +23,18 @@
 <table>
   <tr>
     <td>
-      <img src="static/pictures/p2p/p2p_0.webp" alt="Image" width="100%">
+      <img src="../static/pictures/p2p/p2p_0.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="static/pictures/p2p/p2p_1.webp" alt="Image" width="100%">
+      <img src="../static/pictures/p2p/p2p_1.webp" alt="Image" width="100%">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="static/pictures/p2p/p2p_2.webp" alt="Image" width="100%">
+      <img src="../static/pictures/p2p/p2p_2.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="static/pictures/p2p/p2p_3.webp" alt="Image" width="100%">
+      <img src="../static/pictures/p2p/p2p_3.webp" alt="Image" width="100%">
     </td>
   </tr>
 </table>

@@ -30,18 +30,18 @@
 <table>
   <tr>
     <td>
-      <img src="static/pictures/dry-cleaning/dry-cleaning_1.webp" alt="Image" width="100%">
+      <img src="../static/pictures/dry-cleaning/dry-cleaning_1.webp" alt="Image" width="100%">
     </td>
     <td>
-      <img src="static/pictures/dry-cleaning/dry-cleaning_2.webp" alt="Image" width="100%">
+      <img src="../static/pictures/dry-cleaning/dry-cleaning_2.webp" alt="Image" width="100%">
     </td>
   </tr>
     <tr>
         <td>
-          <img src="static/pictures/dry-cleaning/dry-cleaning_3.webp" alt="Image" width="100%">
+          <img src="../static/pictures/dry-cleaning/dry-cleaning_3.webp" alt="Image" width="100%">
         </td>
         <td>
-          <img src="static/pictures/dry-cleaning/dry-cleaning_4.webp" alt="Image" width="100%">
+          <img src="../static/pictures/dry-cleaning/dry-cleaning_4.webp" alt="Image" width="100%">
         </td>
     </tr>
 </table>
