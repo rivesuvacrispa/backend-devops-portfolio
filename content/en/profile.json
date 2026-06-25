@@ -4,7 +4,7 @@
   "university": "ITMO University, Saint Petersburg, Russia",
   "avatar": "static/pictures/avatar2.webp",
   "title": "About me",
-  "description": "<p>Hi!</p><p>I'm a backend developer with three years of experience in working with web applications and APIs. My main frameworks - Laravel, Django, C# .NET Framework.</p><p>I'm an expert in building systems that are stable and efficient, designing and optimizing databases. I've worked with integrating apps with external APIs like Bitrix24, AmoCRM, Telegram, and OpenAI to deliver great features.</p><p>With my Docker and servers knowledge I can set up and configure Ubuntu, Debian from scratch and deploy the codebase into real environments. Nginx, Grafana, Loki, Prometheus, for me it's all not just words but instruments that I use even on my own private home server.</p> <p>On my free time I enjoy making games in C# with Unity.</p>",
+  "description": "<p>Hi!</p><p>I'm a backend developer with three years of experience in working with web applications and APIs. My main frameworks - Python, FastAPI, Django. My secondary framework is PHP Laravel.</p><p>I'm an expert in building systems that are stable and efficient, designing and optimizing databases. I've worked with integrating apps with external APIs like Bitrix24, AmoCRM, Telegram, and OpenAI to deliver great features.</p><p>With my Docker and servers knowledge I can set up and configure Ubuntu, Debian from scratch and deploy the codebase into real environments. Nginx, Grafana, Loki, Prometheus, for me it's all not just words but instruments that I use even on my own private home server.</p> <p>On my free time I enjoy making games in C# with Unity.</p>",
   "services": [
     {
       "title": "Backend Development",
